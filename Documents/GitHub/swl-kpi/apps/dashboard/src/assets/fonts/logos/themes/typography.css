@@ -1,0 +1,5 @@
+@import "@fontsource/orbitron/variable.css";
+
+:root {
+  --font-sans: "OrbitronVariable", "Eurostile", sans-serif;
+}

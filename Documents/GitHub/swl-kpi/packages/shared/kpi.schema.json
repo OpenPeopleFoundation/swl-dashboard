@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BuildPhaseKPI",
+  "type": "object",
+  "properties": {
+    "cashOnHand": { "type": "number" },
+    "weeklyBurn": { "type": "number" },
+    "runwayWeeks": { "type": "number" },
+    "budgetVariancePct": { "type": "number" },
+    "contingency": { "type": "number" },
+    "contingencyUsed": { "type": "number" }
+  },
+  "required": ["cashOnHand","weeklyBurn","runwayWeeks","budgetVariancePct","contingency","contingencyUsed"]
+}
